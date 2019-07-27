@@ -23,7 +23,7 @@ export default {
         {
           id: 2,
           title: 'Write some code',
-          completed: true
+          completed: false
         },
         {
           id: 3,
