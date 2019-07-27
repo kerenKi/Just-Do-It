@@ -1,7 +1,8 @@
 # Just Do It
 
 This is a simple to do app built with vue.js using Vue-CLI.
-On this ap you can:
+
+On this app you can:
 * Add a new task to do
 * Mark task as complete
 * Delete tasks
