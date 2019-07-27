@@ -25,7 +25,7 @@ export default {
     },
 
     addTodo(newTodo) {
-      this.todos.push(newTodo)
+      this.todos = [...this.todos, newTodo]
     }
   },
   data() {
