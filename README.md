@@ -1,4 +1,10 @@
-# todo
+# Just Do It
+
+This is a simple to do app built with vue.js using Vue-CLI
+
+## Screenshot
+
+[](Screenshot 2019-07-27 at 18.17.05.png)
 
 ## Project setup
 ```
