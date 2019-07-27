@@ -4,7 +4,7 @@ This is a simple to do app built with vue.js using Vue-CLI
 
 ## Screenshot
 
-[](Screenshot 2019-07-27 at 18.17.05.png)
+![](https://github.com/kerenKi/Just-Do-It/blob/master/Screenshot%202019-07-27%20at%2018.17.05.png)
 
 ## Project setup
 ```
