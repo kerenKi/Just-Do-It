@@ -2,17 +2,22 @@
   <div id="app">
     <Header />
     <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo"/>
+    <AddTodo />
+
   </div>
 </template>
 
 <script>
-import Todos from './components/Todos'
 import Header from './components/Layout/Header'
+import Todos from './components/Todos'
+import AddTodo from './components/AddTodo'
+
 export default {
   name: 'app',
   components: {
     Todos,
-    Header
+    Header,
+    AddTodo
   },
   methods: {
     deleteTodo(id){
@@ -55,4 +60,16 @@ export default {
     line-height: 1.4;
   }
 
+  .btn {
+    display: inline-block;
+    border: none;
+    background: #555;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background: #666;
+  }
 </style>
